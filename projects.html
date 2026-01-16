@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="profile-container">
+            <!-- Placeholder for profile image -->
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+            <h1 class="profile-name">Aaron Thompson</h1>
+            <p class="profile-bio">CS Student at Texas A&M University</p>
+        </div>
+
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+
+        <div class="social-links">
+            <a href="mailto:aaronmt05@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </aside>
+
+    <main>
+        <div class="container">
+            <section id="projects">
+                <h1>Projects</h1>
+
+                <div class="project-item">
+                    <h2>Real-Time Malware Detection Model</h2>
+                    <p class="project-date">Fall 2025</p>
+                    <p>
+                        Developed a machine learning model to detect malware with a True Positive Rate (TPR) of ≥ 95%
+                        and a False Positive Rate (FPR) of ≤ 1%.
+                        The solution was engineered to operate under strict performance constraints (≤ 1 GB RAM, ≤ 5s
+                        response) and was containerized using Docker for deployment.
+                    </p>
+                    <p><em>Technologies: PyTorch, Machine Learning, Docker</em></p>
+                </div>
+
+                <hr style="border: 0; border-top: 1px solid #eee; margin: 2rem 0;">
+
+                <div class="project-item">
+                    <h2>Distillation Column Reaction Modeling</h2>
+                    <p class="project-date">Spring 2025</p>
+                    <p>
+                        Collaborated in a team to model and predict complex chemical reactions inside an industrial
+                        distillation column.
+                        Executed intensive feature engineering to extract meaningful patterns from raw process data and
+                        compared multiple ML models to identify the optimal solution.
+                    </p>
+                    <p><em>Technologies: Python, Data Analysis, Machine Learning</em></p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
